@@ -40,7 +40,7 @@ def convert_hex_to_ascii(hex_string):
 ##BINARY TO HEX
 def convert_binary_to_hex(binary_string):
     if len(binary_string) % 8 != 0:
-        print('ERROR PROGRAM ONLY SUPPORTS 8-BYTE CHARACTER MAPPING')
+        print('ERROR PROGRAM ONLY SUPPORTS 8-BIT CHARACTER MAPPING')
         return
     binary_list = list(binary_string)
     x = 0
